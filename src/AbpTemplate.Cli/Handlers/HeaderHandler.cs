@@ -24,15 +24,15 @@ public class HeaderHandler : DelegatingHandler
             }
         }
 
-        if (!request.Headers.Contains("__tenant"))
-        {
-            string? tenant = await _authService.GetTenantAsync();
-            if (!string.IsNullOrEmpty(tenant))
-            {
-                request.Headers.Add("__tenant", tenant);
-                AnsiConsole.MarkupLine($"[green]Tenant: {tenant}[/]");
-            }
-        }
+        // if (!request.Headers.Contains("__tenant"))
+        // {
+        //     string? tenant = await _authService.GetTenantAsync();
+        //     if (!string.IsNullOrEmpty(tenant))
+        //     {
+        //         request.Headers.Add("__tenant", tenant);
+        //         AnsiConsole.MarkupLine($"[green]Tenant: {tenant}[/]");
+        //     }
+        // }
 
         return await base.SendAsync(request, cancellationToken);
     }
