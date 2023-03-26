@@ -1,0 +1,17 @@
+{
+  "name": "abp-template.cli",
+  "version": "1.0.0",
+  "description": "Cli for the AbpTemplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "plop",
+    "gen-api": "nswag openapi2csclient /input:https://abp.antosubash.com/swagger/v1/swagger.json /namespace:AbpTemplate.Cli.Proxy /output:AbpTemplate.Cli\\proxy\\AbpTemplateClient.cs /classname:AbpTemplateClient /UseBaseUrl:false /JsonLibrary:SystemTextJson"
+  },
+  "keywords": [],
+  "author": "Anto Subash",
+  "license": "ISC",
+  "dependencies": {
+    "plop": "^3.1.1"
+  }
+}

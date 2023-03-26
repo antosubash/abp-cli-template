@@ -1,0 +1,8 @@
+using Spectre.Console;
+using Spectre.Console.Cli;
+
+public class {{pascalCase name}}Settings : CommandSettings
+{
+    [CommandArgument(0, "[{{constantCase name}}]")]
+    public string {{pascalCase name}} { get; set; }
+}

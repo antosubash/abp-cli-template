@@ -1,0 +1,28 @@
+using System;
+using System.ComponentModel;
+using Spectre.Console.Cli;
+using AbpTemplate.Cli.Services;
+namespace AbpTemplate.Cli.Commands.{{pascalCase name}};
+
+public class {{pascalCase name}}Command : Command<{{pascalCase name}}Command.Settings>
+{
+    private readonly {{pascalCase name}}Service _{{camelCase name}}Service;
+
+    public sealed class Settings : CommandSettings
+    {
+        [CommandOption("-n|--name <NAME>")]
+        [Description("The person or thing to greet.")]
+        public string Name { get; set; } = "World";
+    }
+
+    public {{pascalCase name}}Command({{pascalCase name}}Service {{camelCase name}}Service)
+    {
+        _{{camelCase name}}Service = {{camelCase name}}Service ?? throw new ArgumentNullException(nameof({{camelCase name}}Service));
+    }
+
+    public override int Execute(CommandContext context, Settings settings)
+    {
+        _{{camelCase name}}Service.Greet(settings.Name);
+        return 0;
+    }
+}

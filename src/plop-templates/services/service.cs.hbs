@@ -1,0 +1,10 @@
+using Spectre.Console;
+namespace AbpTemplate.Cli.Services;
+
+public class {{pascalCase name}}Service
+{
+    public void Greet(string name)
+    {
+        AnsiConsole.MarkupLine($"Hello, [green]{name}[/]!");
+    }
+}
