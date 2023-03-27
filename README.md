@@ -6,10 +6,6 @@ The CLI for you ABP app. This repo is a work in progress. I will be adding more 
 
 This is a CLI for ABP Application. you can use this to connect to you ABP application and perform some actions. For example, you can create a tenant, create a user, create a role, etc.
 
-## Why?
-
-I have been working on ABP for a while now. I have been using the ABP CLI to create new modules, services, etc. But I have been missing a CLI to connect to my ABP application and perform some actions. So I decided to create one.
-
 ## Features
 
 - [x] Login
