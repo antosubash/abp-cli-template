@@ -17,14 +17,9 @@ I have been working on ABP for a while now. I have been using the ABP CLI to cre
 - [x] Switch tenant
 - [x] Seed Tenant (Randomly generate tenant name, admin user, admin password, etc.)
 - [x] Seed User (Randomly generate user name, password, etc.)
-- [ ] Import Tenant
-- [ ] Import User
-- [ ] Import Role
-- [ ] Import Permission
-- [ ] Import Feature
-- [ ] Import Clients
+- [ ] Import and Export data (Maybe)
 
-> Note: if you are wondering Import from where, I am planning to use a csv file to import the data.
+> Note: if you are wondering Import from where, I am planning to use a csv file to import and export data.
 
 ## How to use
 
