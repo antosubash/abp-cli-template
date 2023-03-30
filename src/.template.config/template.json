@@ -16,5 +16,29 @@
         "type": "project"
     },
     "shortName": "cli-template",
-    "preferNameDirectory": true
+    "preferNameDirectory": true,
+    "symbols": {
+        "api": {
+            "type": "parameter",
+            "datatype": "string",
+            "defaultValue": "your-api-name.com",
+            "replaces": "abp.antosubash.com"
+        }
+    },
+    "sources": [
+        {
+            "modifiers": [
+                {
+                    "exclude": [
+                        "**/[Bb]in/**",
+                        "**/[Oo]bj/**",
+                        ".template.config/**/*",
+                        "**/*.filelist",
+                        "**/*.user",
+                        "**/*.lock.json"
+                    ]
+                }
+            ]
+        }
+    ]
 }
