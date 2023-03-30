@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Anto Subash",
+    "classifications": [
+        "ABP",
+        "C#",
+        "dotnet",
+        "cli"
+    ],
+    "identity": "Anto.Cli.Template",
+    "sourceName": "AbpTemplate",
+    "name": "An .Net Cli Template",
+    "description": "An .Net Cli Template",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "shortName": "cli-template",
+    "preferNameDirectory": true
+}
