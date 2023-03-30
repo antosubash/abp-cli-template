@@ -27,8 +27,6 @@ This is a CLI for ABP Application. you can use this to connect to you ABP applic
 dotnet new install Anto.Cli.Template
 ```
 
-> Note: You can use any version you want. I am using 1.0.2 here.
-
 ### Create a new project
 
 ```bash
