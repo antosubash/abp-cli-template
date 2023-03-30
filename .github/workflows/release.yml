@@ -30,6 +30,7 @@ jobs:
     - name: Versionize Release
       id: versionize
       run: versionize --changelog-all --exit-insignificant-commits
+      continue-on-error: true
     - name: Push changes to GitHub
       if: steps.versionize.outcome == 'success'
       uses: ad-m/github-push-action@master
