@@ -1,5 +1,7 @@
 # AbpTemplate.Cli
 
+[![NuGet Badge](https://buildstats.info/nuget/Anto.Cli.Template)](https://www.nuget.org/packages/Anto.Cli.Template)
+
 The CLI for you ABP app. This repo is a work in progress. I will be adding more features to this CLI. If you have any suggestions, please feel free to create an issue. If you want to contribute, please feel free to create a PR. I will be happy to review it. Thanks.
 
 ## What is this?
