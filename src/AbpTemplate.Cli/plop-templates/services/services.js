@@ -11,12 +11,12 @@ module.exports = {
         const actions = [];
         actions.push({
             type: "add",
-            path: "AbpTemplate.Cli/Services/{{pascalCase name}}Service.cs",
+            path: "Services/{{pascalCase name}}Service.cs",
             templateFile: "plop-templates/services/service.cs.hbs",
         })
         actions.push({
             type: "append",
-            path: "AbpTemplate.Cli/Program.cs",
+            path: "Program.cs",
             pattern: "// PLOP_SERVICE_REGISTRATION",
             template: "        registrations.AddScoped<{{pascalCase name}}Service>();",
         });

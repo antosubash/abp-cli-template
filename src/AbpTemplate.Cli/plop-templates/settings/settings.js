@@ -17,7 +17,7 @@ module.exports = {
         if(data.folder) {
             actions.push({
                 type: "add",
-                path: "AbpTemplate.Cli/Commands/{{pascalCase folder}}/{{pascalCase name}}Settings.cs",
+                path: "Commands/{{pascalCase folder}}/{{pascalCase name}}Settings.cs",
                 templateFile: "plop-templates/settings/settings.cs.hbs",
             });
         }
