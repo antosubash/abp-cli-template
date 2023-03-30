@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.0.2"></a>
+## [1.0.2](https://www.github.com/antosubash/AbpTemplate.Cli/releases/tag/v1.0.2) (2023-3-30)
+
+### Bug Fixes
+
+* updated the template ([a8529fe](https://www.github.com/antosubash/AbpTemplate.Cli/commit/a8529fe6433c8d7a3d8979d5fc426959c23ff80a))
+
+### Other
+
+* added api parameter and move plop to the root ([5ff91f9](https://www.github.com/antosubash/AbpTemplate.Cli/commit/5ff91f9733a0f14fcdfc6a4a193744769de67480))
+* Merge pull request #3 from antosubash/template-update ([71cf449](https://www.github.com/antosubash/AbpTemplate.Cli/commit/71cf449f7b9ba4a961045cb4c8904f6a63f5d0da))
+* Merge pull request #4 from antosubash/template-update ([7a71c7d](https://www.github.com/antosubash/AbpTemplate.Cli/commit/7a71c7d1cc1c64dba1a124f4d18be7c3eebde0f5))
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://www.github.com/antosubash/AbpTemplate.Cli/releases/tag/v1.0.1) (2023-3-30)
 
