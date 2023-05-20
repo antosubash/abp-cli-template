@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "plop",
-    "gen-api": "nswag openapi2csclient /input:https://abp.antosubash.com/swagger/v1/swagger.json /namespace:AbpTemplate.Cli.Proxy /output:AbpTemplate.Cli\\proxy\\AbpTemplateClient.cs /classname:AbpTemplateClient /UseBaseUrl:false /JsonLibrary:SystemTextJson"
+    "gen-api": "nswag openapi2csclient /input:https://abp.antosubash.com/swagger/v1/swagger.json /namespace:AbpTemplate.Cli.Proxy /output:proxy\\AbpTemplateClient.cs /classname:AbpTemplateClient /UseBaseUrl:false /JsonLibrary:SystemTextJson"
   },
   "keywords": [],
   "author": "Anto Subash",
