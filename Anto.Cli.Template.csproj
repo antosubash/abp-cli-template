@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
         <TargetFramework>net7.0</TargetFramework>
         <PackageId>Anto.Cli.Template</PackageId>
         <Title>An .Net Cli Template</Title>

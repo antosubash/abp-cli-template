@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="1.0.3"></a>
+## [1.0.3](https://www.github.com/antosubash/abp-cli-template/releases/tag/v1.0.3) (2023-5-20)
+
+### Bug Fixes
+
+* updated the proxy path ([b6bbad3](https://www.github.com/antosubash/abp-cli-template/commit/b6bbad3eccb1c4eac52d8882df1a51775957ee20))
+
+### Other
+
+* Merge pull request #5 from antosubash/template-update ([690e18c](https://www.github.com/antosubash/abp-cli-template/commit/690e18c59d3cff2678d049d79f6eb8445adedb8b))
+* Merge pull request #6 from antosubash/template-update ([99d3e5d](https://www.github.com/antosubash/abp-cli-template/commit/99d3e5d1f1dd454e5be062a9be27fc48ab014995))
+* Merge pull request #7 from antosubash/template-update ([3a37f66](https://www.github.com/antosubash/abp-cli-template/commit/3a37f6645dbaa04bb75e8a2ca66ff73fcefc660d))
+* Update README.md ([4ac6892](https://www.github.com/antosubash/abp-cli-template/commit/4ac6892ba26bdce96937e47ed70fb0d507fffd72))
+* Update README.md ([001c73c](https://www.github.com/antosubash/abp-cli-template/commit/001c73cc22fa49de60b351f959eede81856f3a50))
+* Update release.yml ([ec67897](https://www.github.com/antosubash/abp-cli-template/commit/ec6789790c62ab07e538846d7c0fd176fc3d3951))
+* updated readme ([85a3e4b](https://www.github.com/antosubash/abp-cli-template/commit/85a3e4b75cbf9e6a2dc62ac859abb8f33195f9f0))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://www.github.com/antosubash/AbpTemplate.Cli/releases/tag/v1.0.2) (2023-3-30)
 
